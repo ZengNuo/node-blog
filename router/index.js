@@ -6,8 +6,8 @@ import comment from './comment'
 import message from './message'
 
 export default app => {
-  app.use('/user', user)
-  app.use('/article', article)
-  app.use('/comment', comment)
-  app.use('/message', message)
+  app.use('/api/user', user)
+  app.use('/api/article', article)
+  app.use('/api/comment', comment)
+  app.use('/api/message', message)
 }
